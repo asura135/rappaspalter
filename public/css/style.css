@@ -2,3 +2,7 @@ body {
   padding-top: 50px;
   background-color: lightsteelblue;
 }
+input[value="einnahmen"]:checked + #kategorie{
+  visibility: hidden;
+}
+
